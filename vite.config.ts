@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/web-coding/',
+  base: '/web-container-ide/',
   server: {
     headers: {
       'Cross-Origin-Embedder-Policy': 'require-corp',
